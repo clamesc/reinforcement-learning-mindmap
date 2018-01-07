@@ -88,7 +88,7 @@
 </hook>
 <node TEXT="David Silver Lecture" STYLE_REF="Beschreibung" POSITION="right" ID="ID_1446735658" CREATED="1477494702674" MODIFIED="1477557516472">
 <hook NAME="AlwaysUnfoldedNode"/>
-<node TEXT="1 Introduction" LOCALIZED_STYLE_REF="styles.topic" ID="ID_1475617082" CREATED="1460055254888" MODIFIED="1477494760829">
+<node TEXT="1 Introduction" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1475617082" CREATED="1460055254888" MODIFIED="1477494760829">
 <node TEXT="What makes reinforcement learning different from other machine learning paradigms?" STYLE_REF="Beschreibung" ID="ID_1760707350" CREATED="1460055269273" MODIFIED="1460055485203"><richcontent TYPE="DETAILS">
 
 <html>
@@ -6522,7 +6522,7 @@
 </node>
 </node>
 <node TEXT="Deep Reinforcement Learning for Robotic Manipulation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1520867761" CREATED="1478031626655" MODIFIED="1478031698393">
-<node TEXT="Introduction" STYLE_REF="Beschreibung" ID="ID_1314979984" CREATED="1478032010110" MODIFIED="1478032013011">
+<node TEXT="Introduction" STYLE_REF="Beschreibung" FOLDED="true" ID="ID_1314979984" CREATED="1478032010110" MODIFIED="1478032013011">
 <node TEXT="Robotic applications of Reinforcement Learning" STYLE_REF="Beschreibung" ID="ID_425704454" CREATED="1478031800158" MODIFIED="1478031881398"><richcontent TYPE="DETAILS">
 
 <html>
@@ -6566,7 +6566,7 @@
 </richcontent>
 </node>
 </node>
-<node TEXT="" ID="ID_247215798" CREATED="1478032124886" MODIFIED="1478032124886">
+<node TEXT="" FOLDED="true" ID="ID_247215798" CREATED="1478032124886" MODIFIED="1478032124886">
 <node TEXT="Policy Search Methods" STYLE_REF="Beschreibung" ID="ID_1485477386" CREATED="1478033087342" MODIFIED="1478033208729"><richcontent TYPE="DETAILS">
 
 <html>
@@ -6581,7 +6581,7 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="Value-iteration methods" STYLE_REF="Beschreibung" ID="ID_571512683" CREATED="1478033111787" MODIFIED="1478033305396"><richcontent TYPE="DETAILS">
+<node TEXT="Value-iteration methods" STYLE_REF="Beschreibung" FOLDED="true" ID="ID_571512683" CREATED="1478033111787" MODIFIED="1478033305396"><richcontent TYPE="DETAILS">
 
 <html>
   <head>
