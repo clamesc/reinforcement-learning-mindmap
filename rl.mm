@@ -383,6 +383,7 @@
 </node>
 </node>
 <node TEXT="Categorizing RL Agents" STYLE_REF="Stichpunkt" FOLDED="true" ID="ID_540545995" CREATED="1460060527589" MODIFIED="1460140911991">
+<node TEXT="" FOLDED="true" ID="ID_548967261" CREATED="1515532227823" MODIFIED="1515532227823">
 <node TEXT="Value based" STYLE_REF="Beschreibung" ID="ID_1211457941" CREATED="1460060540217" MODIFIED="1460060758586">
 <arrowlink SHAPE="EDGE_LIKE" COLOR="#000000" WIDTH="2" TRANSPARENCY="80" FONT_SIZE="9" FONT_FAMILY="SansSerif" DESTINATION="ID_1467916023" STARTINCLINATION="122;0;" ENDINCLINATION="122;0;" STARTARROW="NONE" ENDARROW="DEFAULT"/>
 <richcontent TYPE="DETAILS">
@@ -435,6 +436,7 @@
   </body>
 </html>
 </richcontent>
+</node>
 </node>
 </node>
 <node TEXT="" STYLE_REF="Beschreibung" ID="ID_116429316" CREATED="1460060793064" MODIFIED="1460061853761">
@@ -1043,8 +1045,9 @@
 </html>
 </richcontent>
 </node>
-<node TEXT="" FOLDED="true" ID="ID_443089542" CREATED="1476785190765" MODIFIED="1476787487800">
+<node TEXT="" ID="ID_443089542" CREATED="1476785190765" MODIFIED="1515533509813">
 <hook NAME="SummaryNode"/>
+<hook NAME="AlwaysUnfoldedNode"/>
 <node TEXT="MDPs satisfy both properties" STYLE_REF="Beschreibung" ID="ID_1308922425" CREATED="1460146363665" MODIFIED="1476787487798" HGAP_QUANTITY="24.499999687075626 pt" VSHIFT_QUANTITY="5.249999843537812 pt"><richcontent TYPE="DETAILS">
 
 <html>
@@ -6521,114 +6524,6 @@
 </node>
 </node>
 </node>
-<node TEXT="Deep Reinforcement Learning for Robotic Manipulation" LOCALIZED_STYLE_REF="styles.topic" FOLDED="true" ID="ID_1520867761" CREATED="1478031626655" MODIFIED="1478031698393">
-<node TEXT="Introduction" STYLE_REF="Beschreibung" FOLDED="true" ID="ID_1314979984" CREATED="1478032010110" MODIFIED="1478032013011">
-<node TEXT="Robotic applications of Reinforcement Learning" STYLE_REF="Beschreibung" ID="ID_425704454" CREATED="1478031800158" MODIFIED="1478031881398"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;often compromise the autonomy of the learning process in favor of achieving training times that are practical for real physical systems. This typically involves introducing hand-engineered policy representations and human-supplied demonstrations.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Deep Reinforcement Learning" STYLE_REF="Beschreibung" ID="ID_1435898855" CREATED="1478031882371" MODIFIED="1478031932890"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;Applications have so far been restricted to simulated settings and relatively simple tasks, due to their apparent high sample complexity.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Goal" STYLE_REF="Beschreibung" ID="ID_136712452" CREATED="1478032030080" MODIFIED="1478032112497"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;Demonstrate recent deep reinforcement learning algorithm based on off-policy training of deep Q-functions that can learn deep neural network policies efficiently enough to train on real physical robots.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-<node TEXT="" FOLDED="true" ID="ID_247215798" CREATED="1478032124886" MODIFIED="1478032124886">
-<node TEXT="Policy Search Methods" STYLE_REF="Beschreibung" ID="ID_1485477386" CREATED="1478033087342" MODIFIED="1478033208729"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;While they offer a simple and direct way to optimize the true objective, they often require significantly more data than value iteration methods because of on-policy learning.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Value-iteration methods" STYLE_REF="Beschreibung" FOLDED="true" ID="ID_571512683" CREATED="1478033111787" MODIFIED="1478033305396"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;Successfully extend Deep Q-Learning to continuous action space </i></font>
-    </p>
-    <p>
-      <font color="#666666" size="1"><i>Significantly more sample-efficient than competing policy search methods due to off-policy learning.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-<node TEXT="Deep Deterministic Policy Gradient (DDPG)" STYLE_REF="Beschreibung" ID="ID_1081335911" CREATED="1478033214400" MODIFIED="1478033866712"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;Actor-Critic method</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-<node TEXT="Normalized Advantage Function (NAF)" STYLE_REF="Beschreibung" ID="ID_707609236" CREATED="1478033226456" MODIFIED="1478033903965"><richcontent TYPE="DETAILS">
-
-<html>
-  <head>
-    
-  </head>
-  <body>
-    <p>
-      <font color="#666666" size="1"><i>&#160;Restricts class of Q-function to enable closed-form updates as in the discrete action case.</i></font>
-    </p>
-  </body>
-</html>
-</richcontent>
-</node>
-</node>
-</node>
-</node>
-<node TEXT="Continuous Deep Q-Learning with Model-based Acceleration" LOCALIZED_STYLE_REF="styles.topic" ID="ID_328386378" CREATED="1478034325606" MODIFIED="1478034349393"/>
 </node>
 </node>
 </map>
